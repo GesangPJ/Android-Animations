@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GesangAnim</string>
+    <string name="utama">GESANG APP</string>
+    <string name="zoom_in">Zoom In</string>
+    <string name="fade_in">Fade In</string>
+    <string name="fade_out">Fade OUT</string>
+    <string name="zoom_out">Zoom Out</string>
+    <string name="tekan_tombol_untuk_melihat_view_animasi">Tekan tombol untuk melihat view animasi</string>
+    <string name="gesang_paudra_jaya_2020">© Gesang Paudra Jaya_2020</string>
+    <string name="fade_in_animation">Fade In Animation</string>
+    <string name="start_animation">Start Animation</string>
+    <string name="inigambar">IniGambar</string>
+    <string name="fade_out_animation">Fade Out Animation</string>
+    <string name="zoom_in_animation">Zoom In Animation</string>
+    <string name="zoom_out_animation">Zoom Out Animation</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".MasukDalam">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="80dp"
+        android:fontFamily="@font/quicksand"
+        android:text="@string/fade_in_animation"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/kotakfoto"
+        android:layout_width="191dp"
+        android:layout_height="176dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="110dp"
+        android:contentDescription="@string/inigambar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/_718a076e29822051df8bcf8b5ce1124_android_logo_by_vexels" />
+
+    <Button
+        android:id="@+id/mulaimasuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="205dp"
+        android:fontFamily="@font/droid_sans"
+        android:onClick="MulaiAnimasi"
+        android:text="@string/start_animation"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kotakfoto" />
+</androidx.constraintlayout.widget.ConstraintLayout>
